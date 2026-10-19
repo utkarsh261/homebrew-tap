@@ -1,30 +1,30 @@
 class Pho < Formula
   desc "TUI for GitHub pull requests"
   homepage "https://github.com/utkarsh261/pho"
-  version "1.0.2"
+  version "1.0.3"
   license "GPL-3.0-or-later"
 
   depends_on "gh"
 
   on_macos do
     on_arm do
-      url "https://github.com/utkarsh261/pho/releases/download/v1.0.2/pho_1.0.2_macOS_arm64.tar.gz"
-      sha256 "4c1da3fba10aa2ece6a1bd3646cfcafd5bfdab568965a2fcec6757e481addfd8"
+      url "https://github.com/utkarsh261/pho/releases/download/v1.0.3/pho_1.0.3_macOS_arm64.tar.gz"
+      sha256 "3ef0e9ce0b90c5d18ceb3df2d10eaffe4a5ae4bf22c96920d011ce8fa38ae0b0"
     end
     on_intel do
-      url "https://github.com/utkarsh261/pho/releases/download/v1.0.2/pho_1.0.2_macOS_amd64.tar.gz"
-      sha256 "d1af299017fe30517d2a7deb1791b2c8519032abadab4350912044913c0031b2"
+      url "https://github.com/utkarsh261/pho/releases/download/v1.0.3/pho_1.0.3_macOS_amd64.tar.gz"
+      sha256 "fe4b8d2613492723a38e368fa99a98a02105c8f532e115d58901c43321c46a03"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/utkarsh261/pho/releases/download/v1.0.2/pho_1.0.2_linux_arm64.tar.gz"
-      sha256 "9702fb2d9f6279154adb206dda04ebf58b864ad5f9fa99f45fc97e2e3d7129cf"
+      url "https://github.com/utkarsh261/pho/releases/download/v1.0.3/pho_1.0.3_linux_arm64.tar.gz"
+      sha256 "957703da7c3ee29860b0fa6825e5ef844d09a7d2b7dab6b4f7e7af7a25be9d74"
     end
     on_intel do
-      url "https://github.com/utkarsh261/pho/releases/download/v1.0.2/pho_1.0.2_linux_amd64.tar.gz"
-      sha256 "8ab45a9b4f030530ee882254f16c196a59ad8d903d5826fb8c5e2620ad33fa44"
+      url "https://github.com/utkarsh261/pho/releases/download/v1.0.3/pho_1.0.3_linux_amd64.tar.gz"
+      sha256 "8048fcecd10bd12d95755305820f8a023e5cad85a77354464525c618cb150f85"
     end
   end
 
